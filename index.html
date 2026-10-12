@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Micks trainingsagenda</title>
+<style>*{box-sizing:border-box}body{margin:0;background:#f6f6f0;color:#1c3027;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}a{color:#176342;text-underline-offset:.2em}a:focus-visible{outline:3px solid #d09641;outline-offset:4px}header,main,footer{max-width:850px;margin:auto;padding:24px}header{display:flex;justify-content:space-between;align-items:center;gap:24px;border-bottom:1px solid #d7ded7}header a{font-weight:600}main{padding-top:55px;padding-bottom:55px}h1{font-size:clamp(2rem,5vw,3.25rem);line-height:1.12;letter-spacing:-.035em;max-width:700px;margin:12px 0 24px}h2{font-size:1.3rem;margin-top:32px}p,li{max-width:720px}.eyebrow{font-size:.75rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#446350}.lead{font-size:1.2rem;color:#44594e}.note{padding:18px 24px;background:#eaf0e7;border-left:3px solid #418568;border-radius:0 12px 12px 0;margin:32px 0}footer{border-top:1px solid #d7ded7;color:#5b6d61;font-size:.9rem;padding-bottom:36px}code{font-size:.9em;overflow-wrap:anywhere}@media(max-width:500px){header{align-items:flex-start;flex-direction:column;gap:8px}main{padding-top:32px}}</style>
+</head>
+<body>
+<header><a href="index.html">Micks trainingsagenda</a><nav aria-label="Pagina’s"><a href="privacy.html">Privacybeleid</a></nav></header>
+<main><p class="eyebrow">Garmin → Google Agenda</p>
+<h1>De training uit Garmin.<br>Een eigen plek in je agenda.</h1>
+<p class="lead">Micks trainingsagenda is een persoonlijke toepassing die geplande Garmin-trainingen synchroniseert met een aparte, bewerkbare Google-agenda.</p>
+<h2>Wat de toepassing doet</h2>
+<p>Nieuwe trainingen worden automatisch ingepland op een voorkeurstijd per sport en weekdag. Je kunt ze daarna in Google Agenda naar een ander moment verplaatsen. De zelf gekozen begintijd blijft bij volgende synchronisaties behouden.</p>
+<p>De afspraak bevat de trainingsopbouw, doelen en omschrijving als Garmin die levert. Alleen trainingstijd wordt ingepland. Een niet exact bekende duur wordt als schatting aangegeven. Sportkleuren, herinneringen en een vinkje bij uitgevoerde trainingen helpen bij het overzicht.</p>
+<h2>Welke Google-toegang nodig is</h2>
+<p>De toepassing vraagt toestemming om secundaire agenda’s aan te maken en te beheren die door het bijbehorende Google Cloud-project zijn gemaakt. Daarvoor wordt <code>calendar.app.created</code> gebruikt. De toepassing maakt een aparte trainingsagenda en leest geen andere persoonlijke agenda’s voor conflictcontrole.</p>
+<h2>Waar de toepassing draait</h2>
+<p>De synchronisatie en de bedieningspagina draaien op de eigen Raspberry Pi. Google Agenda bewaart de gesynchroniseerde afspraken. Garmin levert de geplande workouts en, voor automatisch afvinken, de uitgevoerde activiteiten.</p>
+<div class="note"><strong>Voor persoonlijk gebruik.</strong> Deze website beschrijft de toepassing. Accounttoestemming wordt gegeven via Google; aanmelden bij Garmin en het bewaren van de koppelingen gebeurt op de eigen Pi.</div>
+<h2>Omgang met gegevens</h2>
+<p>Lees het <a href="privacy.html">privacybeleid</a> voor informatie over gebruik, opslag, delen en verwijderen van gegevens.</p></main>
+<footer>Persoonlijke trainingsagenda · <a href="privacy.html">Privacybeleid</a> · Bijgewerkt op 12 oktober 2026</footer>
+</body>
+</html>
